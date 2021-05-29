@@ -220,7 +220,7 @@ const SRLWrapper = ({
                     null,
                   caption: e.alt || e.textContent,
                   thumbnail:
-                    e.parentElement.href ||
+                    e.parentElement.thumbnail ||
                     e.offsetParent.parentElement.href ||
                     e.offsetParent.href ||
                     e.parentElement.parentElement.parentElement.href || // UGLY FIX FOR GATSBY
